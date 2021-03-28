@@ -47,7 +47,7 @@ const Detail = (props) => {
 
     return (
         <div className="detail mt-4">
-            <h1 className="text-center mb-4">Contact #{Number(index) + 1}</h1>
+            <h1 className="text-center mb-4">Contact #{index + 1}</h1>
             <i onClick={editChanger} className={edit ? "fa fa-check float-end" : "fa fa-edit float-end"}  />
             <div className="table-padding">
                 <table className="table">

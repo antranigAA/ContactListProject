@@ -14,8 +14,6 @@ const ContactForm = () => {
         handleSubmit
     } = useContext(ContactContext);
 
-    // form-control is-valid/is-invalid
-
     return (
         <form onSubmit={handleSubmit} className="text-center mt-4">
             <h1>Add Contact</h1>

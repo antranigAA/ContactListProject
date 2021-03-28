@@ -13,7 +13,7 @@ const Contact = () => {
         const index1 = index + 1;
         return (
             <li key={index} className="list-group-item d-flex list-item">
-                <h3>{index + 1}.  {el.name}</h3>
+                <h3>{index1}.  {el.name}</h3>
                 <i onClick={() => deleteContact(el.id)} className="fas fa-trash-alt" />
                 <Link to={"/detail/" + index1} className="far fa-address-card" />
             </li>
